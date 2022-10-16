@@ -21,11 +21,11 @@ body {
   width: 1600px;
 }
 h1,
-h2, 
-h4, 
+h2,
+h4,
 p {
   margin: 0 auto;
-  padding: 0 ;
+  padding: 0;
 }
 .container {
   margin: 0 auto;
@@ -49,7 +49,7 @@ p {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  max-width: 1200px; 
+  max-width: 1200px;
 }
 .logo {
   font-family: "Raleway";
@@ -61,7 +61,7 @@ p {
 }
 .link {
   text-decoration: none;
-  color: inherit;  
+  color: inherit;
 }
 .link:hover {
   color: var(--brand-color);
@@ -101,7 +101,7 @@ p {
   flex-wrap: nowrap;
   flex-direction: row;
   text-align: center;
-  gap: 46px; 
+  gap: 46px;
 }
 .list {
   list-style: none;
@@ -162,7 +162,7 @@ p {
   color: var(--description-color);
   text-decoration: none;
   letter-spacing: 0.02em;
-  max-width:110px;
+  max-width: 110px;
 }
 .container-one {
   background: var(--background-for-title);
@@ -272,7 +272,7 @@ p {
 figure {
   margin: 0;
 }
-.team-members .list{
+.team-members .list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -312,18 +312,17 @@ figure {
 .footer {
   background: var(--background-for-title);
 }
-.container .address{
+.container .address {
   display: block;
-  
 }
 .address {
   font-style: initial;
   padding: 60px 0;
 }
-.logo-footer{
+.logo-footer {
   margin-left: 0px;
 }
-.info-footer .list{
+.info-footer .list {
   margin-left: 0;
   padding: 0;
 }
@@ -347,7 +346,7 @@ figure {
   width: 93px;
   height: 38px;
 }
-.button-list{
+.button-list {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -362,7 +361,7 @@ figure {
   background-color: var(--brand-color);
   color: var(--white);
 }
-.portfolio-section{
+.portfolio-section {
   margin-left: 215px;
   padding: 0;
 }
@@ -383,6 +382,7 @@ figure {
   width: 370px;
   height: 404px;
   background: var(--white);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .border {
   height: 110px;
