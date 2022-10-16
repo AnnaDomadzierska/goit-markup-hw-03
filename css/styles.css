@@ -1,3 +1,7 @@
+::before,
+::after {
+  box-sizing: border-box;
+}
 :root {
   --brand-color: #2196f3;
   --title-color: #212121;
@@ -13,16 +17,42 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--title-color);
+  margin: 0;
+  width: 1600px;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+.section {
+  padding: 94px 0;
 }
 .button {
   cursor: pointer;
   font-family: inherit;
+}
+.header-wrapper {
+  border-bottom: 1px solid #ececec;
+  padding: 25px 0;
+  text-align: center;
+}
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 93px;
+  max-width: 1200px;
+  
 }
 .logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .link {
   text-decoration: none;
@@ -31,7 +61,6 @@ body {
 .link:hover {
   color: var(--brand-color);
 }
-
 .logo-blue {
   font-family: "Raleway";
   font-size: 26px;
@@ -51,9 +80,13 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
 }
-/* .navigation {
-    
-} */
+.navigation .list {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: center;
+  gap: 46px;
+}
 .list {
   list-style: none;
 }
@@ -81,6 +114,18 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
 }
+.container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.container-contact .list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+  margin-left: 371px;
+}
 .mail {
   font-weight: 500;
   font-size: 14px;
@@ -99,6 +144,7 @@ body {
 }
 .container-one {
   background: var(--background-for-title);
+  padding: 200px 0;
 }
 .primary-title {
   font-weight: 900;
@@ -108,20 +154,41 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--WHITE);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 452px;
+  max-width: 696px;
 }
 .button-order {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  border: 0px;
+  padding: 0px;
+  width: 200px;
+  height: 50px;
   letter-spacing: 0.06em;
   color: var(--WHITE);
 
   background: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-left: 700px;
+}
+.containder-section .list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 46px;
+  padding: 94px 0;
 }
 .fourth-title {
   font-weight: 700;
@@ -130,12 +197,42 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
+  display: inline;
+  display: flex;
+  text-align: left;
+  padding-bottom: 10px;
+  margin: 0;
+  line-height: 80%;
 }
 .description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--description-color);
+  display: flex;
+  text-align: left;
+  word-wrap: normal;
+  width: 270px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container .list-secondary {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 30px;
+  padding-bottom: 94px;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 1170px;
+}
+.container-two {
+  background: var(--background-container-two);
+  padding: 94px 0;
 }
 .secondary-title {
   font-weight: 700;
@@ -144,9 +241,24 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  padding-bottom: 50px;
+  margin: 0;
 }
-.container-two {
-  background: var(--background-container-two);
+figure {
+  margin: 0;
+}
+.team-members .list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  margin-left: 215px;
+  gap: 30px;
+  max-width: 1170px;
+  padding: 0;
 }
 .name {
   font-weight: 500;
@@ -182,6 +294,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--WHITE);
 }
+/* portfolio */
 .button-filters {
   background: var(--button-filters);
   border-radius: 4px;
