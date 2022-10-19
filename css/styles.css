@@ -25,7 +25,7 @@ h2,
 h4,
 p {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 auto;
 }
 .container {
   margin: 0 auto;
@@ -47,9 +47,9 @@ p {
 }
 .header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-height: 80px;
 }
 .logo {
   font-family: "Raleway";
@@ -180,7 +180,6 @@ p {
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-left: 452px;
   margin-bottom: 0;
   margin-top: 0;
   max-width: 696px;
@@ -189,10 +188,8 @@ p {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  margin: 0;
   margin-top: 30px;
   border: 0px;
-  padding: 0px;
   width: 200px;
   height: 50px;
   letter-spacing: 0.06em;
@@ -201,17 +198,16 @@ p {
   background: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-left: 700px;
+  margin-left: 500px;
 }
 .containder-section .list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   text-align: center;
-  justify-content: center;
   margin: 0;
   padding: 0;
-  gap: 46px;
+  gap: 30px;
   padding: 94px 0;
 }
 .fourth-title {
@@ -280,7 +276,6 @@ figure {
   text-align: center;
   justify-content: center;
   margin: 0;
-  margin-left: 200px;
   gap: 30px;
   max-width: 1170px;
   padding: 0;
@@ -362,7 +357,6 @@ figure {
   color: var(--white);
 }
 .portfolio-section {
-  margin-left: 215px;
   padding: 0;
 }
 .portfolio-item {
@@ -389,7 +383,7 @@ figure {
   border-bottom: 1px solid var(--box-two-border);
   border-left: 1px solid var(--box-two-border);
   border-right: 1px solid var(--box-two-border);
-  border-top: none;
+  border-top: 0;
 }
 .thirdry-title {
   font-weight: 700;
