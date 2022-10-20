@@ -381,9 +381,6 @@ figure {
 .border {
   height: 110px;
   border-bottom: 1px solid var(--box-two-border);
-  border-left: 1px solid var(--box-two-border);
-  border-right: 1px solid var(--box-two-border);
-  border-top: 0;
 }
 .thirdry-title {
   font-weight: 700;
