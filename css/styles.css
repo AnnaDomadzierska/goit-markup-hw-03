@@ -206,9 +206,8 @@ p {
   flex-direction: row;
   text-align: center;
   margin: 0;
-  padding: 0;
   gap: 30px;
-  padding: 94px 0;
+  padding: 94px 0 0 0;
 }
 .fourth-title {
   font-weight: 700;
@@ -245,7 +244,6 @@ p {
   flex-direction: row;
   align-items: center;
   gap: 30px;
-  padding-bottom: 94px;
   padding-left: 0;
   margin: 0;
   list-style: none;
