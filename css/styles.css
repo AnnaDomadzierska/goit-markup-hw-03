@@ -142,9 +142,8 @@ p {
   flex-direction: row;
   gap: 40px;
   margin-left: 371px;
-  margin-bottom: 0;
-  margin-right: 0;
-  margin-top: 0;
+  margin-bottom: 16px;
+  margin-top: 16px;
   padding: 0;
 }
 .mail {
